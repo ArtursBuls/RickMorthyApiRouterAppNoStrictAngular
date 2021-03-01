@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap");
+
+.container {
+  padding: 30px;
+}
+
+.header {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.card {
+  border: none;
+  border-radius: 10px;
+}
+
+.card-body {
+  background: rgba(245, 238, 238, 0.863);
+  border-radius: 10px;
+}
+
+.card-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-title {
+  font-family: "Coda Caption", sans-serif;
+  color: rgba(0, 0, 0, 0.726);
+}
+
+.paragraph {
+  font-size: 26px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+
+.card-img-top {
+  border-radius: 8px 8px 0px 0px;
+}
+
+.card-link {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.418);
+  &:hover {
+    cursor: pointer;
+    color: black;
+  }
+}
